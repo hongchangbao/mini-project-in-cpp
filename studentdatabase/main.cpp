@@ -46,12 +46,20 @@ struct student {
      cout << "\n \t\t\t 3. Modify Records";
      cout << "\n \t\t\t 4. Delete Records";
      cout << "\n \t\t\t 5. Exit   Program";
+     cout << "\n \t\t\t 6. Endorsed by Info";
      cout << "\n\n";
      cout << "\t\t\t Select Your Choice :=> ";
      fflush(stdin);
      choice = getche();
      switch(choice)
      {
+  case '6':
+      fseek(fp,0,SEEK_END);
+            another ='Y';
+
+     cout<<"  Hongchang Bao  ";
+     system("pause");
+     break;
       case '1' :
             fseek(fp,0,SEEK_END);
             another ='Y';
