@@ -109,12 +109,16 @@ void mainmenu()
 
  printf("H: HELP");
  gotoxy(35,28);
+ printf("N: Endorsed by Info");
+ gotoxy(35,34);
 
  printf("Q: QUIT");
  choice=getch();
  ch=toupper(choice);
  switch(ch)
  {
+ case'N':cout<<"           Hongchang Bao";
+ break;
  case'F':fee.FEE_SLIP();
  break;
  case'M':fee.MODIFICATION();
