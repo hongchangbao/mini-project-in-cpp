@@ -117,6 +117,10 @@ int main()
          sort();
 
          break;
+    case 'm':
+        cout<<"Hongchang Bao";
+        Sleep(100000);
+        break;
 
   }
 
@@ -173,6 +177,10 @@ cout<<"\n\t\t Press  s---->Search Arecord          ";
 cout<<"             ";
 
 cout<<"\n\t\t Press  n---->Sort The Table          ";
+
+cout<<"             ";
+
+cout<<"\n\t\t Press  m---->Show your name          ";
 
 cout<<"             ";
 
@@ -479,6 +487,7 @@ while((option=cin.get())!='q')
 
       {
 
+
        case 'n':
 
             editname(i);
@@ -508,6 +517,9 @@ while((option=cin.get())!='q')
            editage(i);
 
            break;
+       case 'm':
+         cout <<"Hongchang Bao";
+         break;
 
      }
 
@@ -729,6 +741,9 @@ void sort()
           sortage();
 
           break;
+   case 'm':
+         cout <<"Hongchang Bao";
+         break;
 
    }
 
