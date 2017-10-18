@@ -361,8 +361,9 @@ while(1)
   <<"3.Show\n\t\t\t"
 
   <<"4.Buses Available. \n\t\t\t"
+  <<"5.Endorsed by Info. \n\t\t\t"
 
-  <<"5.Exit";
+  <<"6.Exit";
 
   cout<<"\n\t\t\tEnter your choice:-> ";
 
@@ -387,8 +388,10 @@ while(1)
     case 4:  bus[0].avail();
 
       break;
+    case 5: cout<<"Hongchang Bao";
+      break;
 
-    case 5:  exit(0);
+    case 6:  exit(0);
 
   }
 
